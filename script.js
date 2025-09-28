@@ -40,7 +40,10 @@ button.addEventListener("click", function () {
     // change text here
 });
 */
- 
+ const button = document.getElementById("button-id");
+button.addEventListener("click", function () {
+  // run code when the button is clicked
+});
 
 /*  
 =======================================

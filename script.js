@@ -40,9 +40,10 @@ button.addEventListener("click", function () {
     // change text here
 });
 */
- const button = document.getElementById("button-id");
+const text =document.getElementById("t2-status")
+const button = document.getElementById("button-id");
 button.addEventListener("click", function () {
-  // run code when the button is clicked
+  text.textContent='You clicked the button!'
 });
 
 /*  
